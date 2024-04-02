@@ -1,0 +1,19 @@
+I need a Python script for analyzing an attacks.json file with details on cyber attacks. The script should:
+
+
+
+1) Load JSON data, where each object has "event", "attack group", "target" (which may be a single value or a list), "tactic", "technique", and "data sources".
+
+2) Prompt the user for a attack group.
+
+3) If the group isn't found, display an error with an ASCII frowning face.
+
+4) For a found group, create a record displaying:
+
+- All events credited to the attack group.
+
+- Sort events in the order they appear in "attacks.json".
+
+- Display concise details of each phase of the  kill chain for each event at the bottom of each event's log.
+
+- Display the list of data sources at the bottom, with a brief explanation of how each source can be used to detect each phase of an attack.
